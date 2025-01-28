@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SimpleCards
 //
-//  Created by Buse Karabıyık on 28.01.2025.
+//  Created by Buse Karabıyık on 31.08.2023.
 //
 
 import UIKit

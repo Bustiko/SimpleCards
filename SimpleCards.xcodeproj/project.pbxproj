@@ -6,36 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C9EC91C62D496BD200ED3F17 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C9EC91C52D496BD200ED3F17 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C9EC91922D496B7C00ED3F17 /* SimpleCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EC91AA2D496BA200ED3F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9EC91AB2D496BA200ED3F17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9EC91AC2D496BA200ED3F17 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		C9EC91AD2D496BA200ED3F17 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		C9EC91AF2D496BA200ED3F17 /* UIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFunctions.swift; sourceTree = "<group>"; };
+		C9EC91B02D496BA200ED3F17 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C9EC91B12D496BA200ED3F17 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		C9EC91B22D496BA200ED3F17 /* CategoriesScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesScreenView.swift; sourceTree = "<group>"; };
+		C9EC91B32D496BA200ED3F17 /* CardsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsScreenView.swift; sourceTree = "<group>"; };
+		C9EC91B52D496BA200ED3F17 /* DataLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLogic.swift; sourceTree = "<group>"; };
+		C9EC91B62D496BA200ED3F17 /* CardsLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsLogic.swift; sourceTree = "<group>"; };
+		C9EC91B72D496BA200ED3F17 /* OneTimeFBSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTimeFBSave.swift; sourceTree = "<group>"; };
+		C9EC91B92D496BA200ED3F17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9EC91BB2D496BA200ED3F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9EC91BC2D496BA200ED3F17 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9EC91BF2D496BA200ED3F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EC91C02D496BA200ED3F17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C9EC91C22D496BA400ED3F17 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C9EC91C32D496BAA00ED3F17 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C9EC91A42D496B7E00ED3F17 /* Exceptions for "SimpleCards" folder in "SimpleCards" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C9EC91912D496B7C00ED3F17 /* SimpleCards */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C9EC91942D496B7C00ED3F17 /* SimpleCards */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C9EC91A42D496B7E00ED3F17 /* Exceptions for "SimpleCards" folder in "SimpleCards" target */,
-			);
-			path = SimpleCards;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C9EC918F2D496B7C00ED3F17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9EC91C62D496BD200ED3F17 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +48,9 @@
 		C9EC91892D496B7C00ED3F17 = {
 			isa = PBXGroup;
 			children = (
-				C9EC91942D496B7C00ED3F17 /* SimpleCards */,
+				C9EC91C32D496BAA00ED3F17 /* GlobalVariables.swift */,
+				C9EC91C22D496BA400ED3F17 /* .gitignore */,
+				C9EC91C12D496BA200ED3F17 /* SimpleCards */,
 				C9EC91932D496B7C00ED3F17 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +61,62 @@
 				C9EC91922D496B7C00ED3F17 /* SimpleCards.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C9EC91AE2D496BA200ED3F17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC91AC2D496BA200ED3F17 /* CategoriesViewController.swift */,
+				C9EC91AD2D496BA200ED3F17 /* CardsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C9EC91B42D496BA200ED3F17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC91AF2D496BA200ED3F17 /* UIFunctions.swift */,
+				C9EC91B02D496BA200ED3F17 /* CardView.swift */,
+				C9EC91B12D496BA200ED3F17 /* ScrollView.swift */,
+				C9EC91B22D496BA200ED3F17 /* CategoriesScreenView.swift */,
+				C9EC91B32D496BA200ED3F17 /* CardsScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9EC91B82D496BA200ED3F17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC91B52D496BA200ED3F17 /* DataLogic.swift */,
+				C9EC91B62D496BA200ED3F17 /* CardsLogic.swift */,
+				C9EC91B72D496BA200ED3F17 /* OneTimeFBSave.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9EC91BE2D496BA200ED3F17 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC91BA2D496BA200ED3F17 /* LaunchScreen.storyboard */,
+				C9EC91BB2D496BA200ED3F17 /* Assets.xcassets */,
+				C9EC91BD2D496BA200ED3F17 /* Main.storyboard */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		C9EC91C12D496BA200ED3F17 /* SimpleCards */ = {
+			isa = PBXGroup;
+			children = (
+				C9EC91AA2D496BA200ED3F17 /* AppDelegate.swift */,
+				C9EC91AB2D496BA200ED3F17 /* SceneDelegate.swift */,
+				C9EC91AE2D496BA200ED3F17 /* Controller */,
+				C9EC91B42D496BA200ED3F17 /* View */,
+				C9EC91B82D496BA200ED3F17 /* Model */,
+				C9EC91BE2D496BA200ED3F17 /* Files */,
+				C9EC91BF2D496BA200ED3F17 /* Info.plist */,
+				C9EC91C02D496BA200ED3F17 /* GoogleService-Info.plist */,
+			);
+			path = SimpleCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +134,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C9EC91942D496B7C00ED3F17 /* SimpleCards */,
-			);
 			name = SimpleCards;
 			packageProductDependencies = (
+				C9EC91C52D496BD200ED3F17 /* FirebaseFirestore */,
 			);
 			productName = SimpleCards;
 			productReference = C9EC91922D496B7C00ED3F17 /* SimpleCards.app */;
@@ -107,6 +166,9 @@
 			);
 			mainGroup = C9EC91892D496B7C00ED3F17;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C9EC91C42D496BD200ED3F17 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C9EC91932D496B7C00ED3F17 /* Products */;
 			projectDirPath = "";
@@ -136,6 +198,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9EC91BA2D496BA200ED3F17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9EC91B92D496BA200ED3F17 /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9EC91BD2D496BA200ED3F17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9EC91BC2D496BA200ED3F17 /* Main.storyboard */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C9EC91A62D496B7E00ED3F17 /* Debug */ = {
@@ -335,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9EC91C42D496BD200ED3F17 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9EC91C52D496BD200ED3F17 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9EC91C42D496BD200ED3F17 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9EC918A2D496B7C00ED3F17 /* Project object */;
 }
